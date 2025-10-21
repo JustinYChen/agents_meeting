@@ -401,20 +401,20 @@ if __name__ == '__main__':
     player_configs = [
         {
             "name": "DeepSeek",
-            "model": "deepseek-r1"
+            "model": "deepseek/deepseek-r1"
         },
         {
-            "name": "ChatGPT",
-            "model": "o3-mini"
+            "name": "Qwen",
+            "model": "qwen/qwen3-vl-8b-thinking"
         },
         {
             "name": "Claude",
-            "model": "claude-3.7-sonnet"
+            "model": "anthropic/claude-3.7-sonnet"
         },
         {
-            "name": "Gemini",
-            "model": "gemini-2.0-flash-thinking"
-        }
+                "name": "Gemini",
+                "model": "google/gemini-2.5-flash"
+            }
     ]
 
     print("游戏开始！玩家配置如下：")
